@@ -16,15 +16,15 @@ _Steps_:
 _Goals_:
 Set a variable for _risk index_. Calculate the _risk index_ the user, which will impact our methods of equity analysis. The risk index is scaled as follows: 
 
-<p align="center">HelloWorld</p>
-
-|**Score**|**Level**|
-|---------|---------|
-|**33-47**|High tolerance for risk|    
-|**29-32**|Above-average tolerance for risk|
-|**23-28**|Average/moderate tolerance for risk|
-|**19-22**|Below-average tolerance for risk|
-|**0-18**|Low tolerance for risk|
+<p align="center">
+    |**Score**|**Level**|
+    |---------|---------|
+    |**33-47**|High tolerance for risk|    
+    |**29-32**|Above-average tolerance for risk|
+    |**23-28**|Average/moderate tolerance for risk|
+    |**19-22**|Below-average tolerance for risk|
+    |**0-18**|Low tolerance for risk|
+</p>
 
 Prompt the following questions to determine the _risk index_, note that answers to the questions have varying effects on changing the _risk index_:
 
