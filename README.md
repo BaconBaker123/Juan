@@ -11,6 +11,7 @@ _What the image means_:
 
 _Steps_:
 1.Prompt the questions to clients.
+<<<<<<< HEAD
 2.Use the Grable and Lytton risk-tolerance scale to evaluate each client
 
 _Goals_:
@@ -22,6 +23,3 @@ Calculate the risk index of the user, which will impact our methods of equity an
 |**23-28**|Average/moderate tolerance for risk|
 |**19-22**|Below-average tolerance for risk|
 |**0-18**|Low tolerance for risk|
-
-
- 
