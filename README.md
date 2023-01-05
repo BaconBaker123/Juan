@@ -16,6 +16,8 @@ _Steps_:
 _Goals_:
 Set a variable for _risk index_. Calculate the _risk index_ the user, which will impact our methods of equity analysis. The risk index is scaled as follows: 
 
+<p align="center">HelloWorld</p>
+
 |**Score**|**Level**|
 |---------|---------|
 |**33-47**|High tolerance for risk|    
