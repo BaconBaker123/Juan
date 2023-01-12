@@ -25,13 +25,11 @@ NEW_FORM = {
 
 # Request body to add a multiple-choice question
 NEW_QUESTION = {
-    "requests": [{
-        "createItem": {
+    "requests": [{"createItem": {
             "item": {
                 "title": "What is your goal for investing?",
                 "questionItem": {
                     "question": {
-                        "questionId": "1",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -54,10 +52,18 @@ NEW_QUESTION = {
         }
     }, {"createItem": {
             "item": {
+                "title": "Question 2",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 1
+            }
+        }
+    }, {"createItem": {
+            "item": {
                 "title": "What is your understanding of stocks, bonds, and ETFs?",
                 "questionItem": {
                     "question": {
-                        "questionId": "2",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -73,7 +79,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 1
+                "index": 2
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 3",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 3
             }
         }
     }, {"createItem": {
@@ -81,7 +96,6 @@ NEW_QUESTION = {
                 "title": "When you hear “risk” related to your finances, what is the first thought that comes to mind?",
                 "questionItem": {
                     "question": {
-                        "questionId": "3",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -97,21 +111,29 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 2
+                "index": 4
             }
         }
     }, {"createItem": {
             "item": {
-                "title": "Have you ever experienced a 20'%' or more decline in the value of your investments in one year?",
+                "title": "Question 4",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 5
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Have you ever experienced a 20% or more decline in the value of your investments in one year?",
                 "questionItem": {
                     "question": {
-                        "questionId": "4",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
                             "options": [
-                                {"value": "Yes"}, 
-                                {"value": "No"},
+                                {"value": "Yes"}, #"goToSectionId": "6cfbb743"}, 
+                                {"value": "No"}, #"goToSectionId": "286df58d"},
                             ],
                             "shuffle": False
                         }
@@ -119,15 +141,24 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 3
+                "index": 6
             }
         }
     }, {"createItem": {
             "item": {
-                "title": "What did you do when you experienced a 20'%' decline in the value of your investments?",
+                "itemId": "6cfbb743",
+                "title": "Question 5a",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 7
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "What did you do when you experienced a 20% decline in the value of your investments?",
                 "questionItem": {
                     "question": {
-                        "questionId": "5a",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -144,15 +175,24 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 4
+                "index": 8
             }
         }
     }, {"createItem": {
             "item": {
-                "title": "If you were ever to experience a 20'%' decline or more in the value of your investments in one year, what would you do?",
+                "itemId": "286df58d",
+                "title": "Question 5b",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 9
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "If you were ever to experience a 20% decline or more in the value of your investments in one year, what would you do?",
                 "questionItem": {
                     "question": {
-                        "questionId": "5b",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -169,7 +209,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 5
+                "index": 10
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 6",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 11
             }
         }
     }, {"createItem": {
@@ -177,7 +226,6 @@ NEW_QUESTION = {
                 "title": "When you hear “risk” related to your finances, what is the first thought that comes to mind?",
                 "questionItem": {
                     "question": {
-                        "questionId": "6",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -192,7 +240,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 6
+                "index": 12
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 7",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 13
             }
         }
     }, {"createItem": {
@@ -200,7 +257,6 @@ NEW_QUESTION = {
                 "title": "How much do you want to invest to get started?",
                 "questionItem": {
                     "question": {
-                        "questionId": "7",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -214,7 +270,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 7
+                "index": 14
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 8",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 15
             }
         }
     }, {"createItem": {
@@ -222,7 +287,6 @@ NEW_QUESTION = {
                 "title": "How much investment value fluctuation would you be comfortable with 1 year from now?",
                 "questionItem": {
                     "question": {
-                        "questionId": "8",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -241,7 +305,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 8
+                "index": 16
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 9",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 17
             }
         }
     }, {"createItem": {
@@ -249,7 +322,6 @@ NEW_QUESTION = {
                 "title": "How much investment value fluctuation would you be comfortable with 1 year from now?",
                 "questionItem": {
                     "question": {
-                        "questionId": "9",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -263,29 +335,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 9
+                "index": 18
             }
         }
     }, {"createItem": {
             "item": {
-                "title": "How much do you want to contribute each month?",
-                "questionItem": {
-                    "question": {
-                        "questionId": "10",
-                        "required": True,
-                        "choiceQuestion": {
-                            "type": "RADIO",
-                            "options": [
-                                {"value": "Monthly Contribution / Initial Investment < 10%"},
-                                {"value": "Monthly Contribution / Initial Investment ≥ 10%"},
-                            ],
-                            "shuffle": False
-                        }
-                    }
-                },
+                "title": "Question 10a",
+                "pageBreakItem": {},
             },
             "location": {
-                "index": 10
+                "index": 19
             }
         }
     }, {"createItem": {
@@ -293,7 +352,6 @@ NEW_QUESTION = {
                 "title": "How long do you need the income to last?",
                 "questionItem": {
                     "question": {
-                        "questionId": "10a",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -309,7 +367,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 11
+                "index": 20
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 10b",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 21
             }
         }
     }, {"createItem": {
@@ -317,7 +384,6 @@ NEW_QUESTION = {
                 "title": "When will you need to start withdrawing funds from this account?",
                 "questionItem": {
                     "question": {
-                        "questionId": "10b",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -333,7 +399,16 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 12
+                "index": 22
+            }
+        }
+    }, {"createItem": {
+            "item": {
+                "title": "Question 11",
+                "pageBreakItem": {},
+            },
+            "location": {
+                "index": 23
             }
         }
     }, {"createItem": {
@@ -341,7 +416,6 @@ NEW_QUESTION = {
                 "title": "How would you consider yourself?",
                 "questionItem": {
                     "question": {
-                        "questionId": "11",
                         "required": True,
                         "choiceQuestion": {
                             "type": "RADIO",
@@ -355,7 +429,7 @@ NEW_QUESTION = {
                 },
             },
             "location": {
-                "index": 13
+                "index": 24
             }
         }
     }]
