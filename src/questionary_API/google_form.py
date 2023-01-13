@@ -20,6 +20,7 @@ form_service = discovery.build('forms', 'v1', http=creds.authorize(
 NEW_FORM = {
     "info": {
         "title": "RoboAdvisor 1.1",
+        "documentTitle": "RoboAdvisor 1.1",
     }
 }
 
