@@ -1,6 +1,6 @@
 import numpy as np
 
-#create a dict, key is the answer, and the value is point that correspond to the answer
+#create a dict, key is the answer, and the value is point that correspond to the answer. if the value is a list[int, int], the first int repersent RC or RW(0 is RC, 1 is RW), and the second int is the answer
 newDict = {'prepare for retirement.':[0,20],
 'save for major upcoming expenses (education, health bills, etc.).':[0,10],
 'save for something special (vacation, new car, etc.).':[0,20],
