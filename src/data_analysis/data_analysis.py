@@ -1,7 +1,7 @@
 import pandas as pd
 
 #dataframe from excel
-dataframe = pd.read_excel(r'/Users/guojincai/Juan/src/data_collection_API/RoboAdvisor 1.1 (reply).xls')
+dataframe = pd.read_excel(r'/Users/tongjia/Juan/src/data_collection_API/RoboAdvisor 1.1 (reply).xls')
 
 def main():
     global score_dict
