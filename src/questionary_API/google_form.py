@@ -94,7 +94,7 @@ NEW_QUESTION = {
         }
     }, {"createItem": {
             "item": {
-                "title": "When you hear “risk” related to your finances, what is the first thought that comes to mind?",
+                "title": "When you hear “risk” related to your finances, what is the first thought that comes to mind?", 
                 "questionItem": {
                     "question": {
                         "required": True,
@@ -191,7 +191,7 @@ NEW_QUESTION = {
         }
     }, {"createItem": {
             "item": {
-                "title": "If you were ever to experience a 20% decline or more in the value of your investments in one year, what would you do?",
+                "title": "If you were ever to experience a 20% decline or more in the value of your investments in one year, what would you do?", 
                 "questionItem": {
                     "question": {
                         "required": True,
@@ -224,7 +224,7 @@ NEW_QUESTION = {
         }
     }, {"createItem": {
             "item": {
-                "title": "When you hear “risk” related to your finances, what is the first thought that comes to mind?",
+                "title": "How would you describe your approach to making important financial decisions?",
                 "questionItem": {
                     "question": {
                         "required": True,
@@ -320,7 +320,7 @@ NEW_QUESTION = {
         }
     }, {"createItem": {
             "item": {
-                "title": "How much investment value fluctuation would you be comfortable with 1 year from now?",
+                "title": "How much do you want to contribute each month?", 
                 "questionItem": {
                     "question": {
                         "required": True,
