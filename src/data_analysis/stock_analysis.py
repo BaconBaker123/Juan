@@ -32,3 +32,7 @@ print(google.balance_sheet.to_string())
 #cash_flow
 print("--------------------------")
 print(google.cash_flow.to_string())
+
+#news
+print("--------------------------")
+print(google.news)
