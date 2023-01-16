@@ -5,8 +5,8 @@ import pandas as pd
 #Data Source
 import yfinance as yf
 
-google = yf.Ticker("T") 
-#shares out standing 
+google = yf.Ticker("GOOGL") 
+# #shares out standing 
 print(google.shares) 
 print("--------------------------")
 print(google.get_shares_full())

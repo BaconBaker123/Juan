@@ -1,7 +1,7 @@
 import pandas as pd
 
 #dataframe from excel
-dataframe = pd.read_excel(r'/Users/guojincai/Juan/src/data_collection_API/RoboAdvisor 1.1 (reply).xls')
+dataframe = pd.read_excel(r'/Users/jihangli/Devlopment/Juan/src/data_collection_API/RoboAdvisor 1.1 (Responses).xls')
 
 def main():
     global score_dict
@@ -70,7 +70,7 @@ def score_cal(dataframe):
         elif dataframe.loc[i]['If you were ever to experience a 20% decline or more in the value of your investments in one year, what would you do?'] == 'buy more.':
             score_dict[email_address][1] += 20
         #Qestion 6(Risk Willingness)
-        if dataframe.loc[i]['How would you describe your approach to making important financial decisions? ']:
+        if dataframe.loc[i]['How would you describe your approach to making important financial decisions? '] == 'I try to avoid making decisions.':
             score_dict[email_address][1] += 0
         elif dataframe.loc[i]['How would you describe your approach to making important financial decisions? '] == 'I reluctantly make decisions.':
             score_dict[email_address][1] += 6
