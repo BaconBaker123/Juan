@@ -5,6 +5,7 @@ import numpy as np
 def getPoint(email):
     #load excel as a dataframe, load npy as a dict
     dataframe = pd.read_excel(r'RoboAdvisor 1.1 (Responses).xls')
+    dataframe = dataframe.drop_duplicates(subset='Email Address', keep='last') #dropping the all duplicates emails except the last one
     newDict = np.load('investorScore.npy',allow_pickle=True)
     #result is a list contains [email, RC, RW, investor Type]
     result = [0]*5
