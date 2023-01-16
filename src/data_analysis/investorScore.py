@@ -51,3 +51,28 @@ newDict = {'prepare for retirement.':[0,20],
 'Income strategy investor (i.e. prefer generating fixed income like coupon or interest from bonds over capital gains from stocks)':'Income strategy investor'}
 
 np.save("investorScore.npy",newDict)
+
+#create and save 2 list that contains risk score for return strategy investor and income strategy investor
+returnStrategiesRiskScore = [[1,2,3,3,4,5,5,6,7,8],
+[1,2,3,4,4,5,5,6,7,8],
+[1,2,3,4,4,5,6,6,8,9],
+[1,2,3,4,4,5,6,7,8,9],
+[1,2,3,4,5,6,6,7,8,9],
+[1,2,4,4,5,6,7,7,9,10],
+[1,2,4,5,5,6,7,8,10,11],
+[1,2,4,5,5,6,8,9,10,11],
+[1,3,4,5,6,7,8,10,11,12],
+[1,3,5,5,6,7,9,10,12,12]]
+
+np.save("returnStrategiesRiskScore.npy",returnStrategiesRiskScore)
+
+incomeStrategiesRiskScore = [[1,1,2,2,2,3,3,3,3,3],
+[1,1,2,2,2,3,3,3,3,3],
+[1,1,2,2,2,3,3,3,3,3],
+[1,1,2,2,2,3,3,3,3,3],
+[1,1,2,2,3,3,3,3,3,3],
+[1,1,3,3,3,3,3,3,3,3],
+[1,2,3,3,3,3,3,3,3,3],
+[1,2,3,3,3,3,3,3,3,3]]
+
+np.save("incomeStrategiesRiskScore.npy",incomeStrategiesRiskScore)
